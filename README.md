@@ -1,5 +1,6 @@
 # html-city-tourism
 ## exercise 01:
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -110,7 +111,7 @@
 </table>
 </body>
 </html>
-
+```
 
 ## output:
 ![image](https://github.com/Prethiveerajan/html-city-tourism/assets/94233064/ac8560cb-eb28-4235-924c-f4e81b39a15e)
