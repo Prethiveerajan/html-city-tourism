@@ -117,6 +117,167 @@
 ![image](https://github.com/Prethiveerajan/html-city-tourism/assets/94233064/ac8560cb-eb28-4235-924c-f4e81b39a15e)
 
 
+## Hotels:
+## index.html:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tourism</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/o1.jpg" alt="City Logo">
+        <h1>Welcome to India Tourism</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heritage.html">Heritage</a></li>
+                <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Discover the Beauty of India</h2>
+            <p>India is a diverse and culturally rich country with a myriad of heritage sites, vibrant cultures, and beautiful landscapes. Explore our website to find out more about the must-visit places and make your stay comfortable by booking the best hotels in the country.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 India Tourism</p>
+    </footer>
+</body>
+</html>
+
+```
+
+
+## gallery.html:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/o1.jpg" alt="City Logo">
+        <h1>Gallery of India</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heritage.html">Heritage</a></li>
+                <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Our Beautiful Country</h2>
+            <div class="gallery">
+                <img src="images/hotel-1.jpeg" alt="Gallery Image 1">
+                <img src="images/hotel-2.jpeg" alt="Gallery Image 2">
+                <img src="images/hotel-3.jpeg" alt="Gallery Image 3">
+                <img src="images/hotel-4.jpeg" alt="Gallery Image 4">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 India Tourism</p>
+    </footer>
+</body>
+</html>
+
+```
+## hotel-booking.html:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="images/o1.jpg" alt="City Logo">
+        <h1>Book Your Stay in India</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="heritage.html">Heritage</a></li>
+                <li><a href="hotel-booking.html">Hotel Booking</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="booking-form-container">
+            <h2>Hotel Booking Form</h2>
+            <form class="hotel-booking-form" action="submit-booking" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkin">Check-in Date:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                </div>
+                <div class="form-group">
+                    <label for="checkout">Check-out Date:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                </div>
+                <div class="form-group">
+                    <label for="room">Room Type:</label>
+                    <select id="room" name="room" required>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="suite">Suite</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="special-requests">Special Requests:</label>
+                    <textarea id="special-requests" name="special-requests"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Book Now</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 India Tourism</p>
+    </footer>
+</body>
+</html>
+
+```
+
+
+## output:
+![image](https://github.com/Prethiveerajan/html-city-tourism/assets/94233064/2b9a9f53-42c6-418e-ac4a-1aff44de1f97)
+![image](https://github.com/Prethiveerajan/html-city-tourism/assets/94233064/3ca963fd-069f-4a61-a349-c2934ae9e1b9)
+![image](https://github.com/Prethiveerajan/html-city-tourism/assets/94233064/1d82c8d4-aae6-4dfe-9491-79f0df649420)
+
+
+
 
 
 
